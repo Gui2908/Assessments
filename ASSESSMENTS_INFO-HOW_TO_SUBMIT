@@ -1,0 +1,45 @@
+ASSESSMENTS
+As you already know, we have assessments that help you review and practice the concepts and code we learn each week. There are a couple of reasons we do this:
+
+Practice - We cover a new technology each week, which doesn't leave time for much practice. Assessments are a chance for you to get comfortable with these new skills.
+
+Check Progress - Assessments are designed to cover the key concepts from each week, so they are a good tool for you to be able to judge how well you are doing. If the assessments are easy, you are probably doing something right. If there is a concept or technology in the assessments that is really hard for you, you should reach out to an instructor to get clarification on that topic ASAP.
+
+Interview Practice - The last goal behind the assessments is to get you ready for interviewing. The questions in the assessments are very similar to questions you might come across in an interview. Simply by answering all the questions in the assessments, by the end of class you will have a list of nearly 80 interview questions that you are already comfortable answering!
+
+Instructors will review the assessments at various times throughout the course to give you feedback about your code and understanding. This way, we can ensure that everyone is grasping the necessary concepts.
+
+Setup
+All of the assessments for your class are in a Github repo. Follow these steps to get your own copy of the repo up and running so you are ready to start:
+
+Go to the assessments repo: Bravo Assessments Repo
+
+In the upper right hand corner of the repo page, select to "Fork" the repo. This gives you your own personal copy of the repo - now you can always find your copy because it is listed under your repositories in your github profile!
+
+Go to your forked copy of the assessments repo, take the url of the repo, and run git clone the-repo-url -- now you have all the assessments in a folder on your computer and you are ready to edit them.
+
+As you work on the assessments, save your progress as you go by following these steps:
+
+git add .
+this adds all of your changes
+
+git commit -m "a note to yourself about what changes you made"
+this adds a message to your update, to help with organization
+
+git push -u origin master
+this "pushes" all of the changes you've made on your computer up to Github. You may be prompted to sign in to your Github account in order to push, but after that you should be able to see all your most recent changes on Github!
+
+Submitting Assessments
+Steps to submitting your Assessments:
+
+First, double check that you have pushed your most recent changes to Github, so that your Assessments repo on Github has all the information you want to submit.
+
+Go to the original LEARN assessments repo: Bravo Assessments Repo
+
+Click the button "New Pull Request"
+
+This takes you to a "Compare Changes" page. In the text block at the top of the page there is a link to "compare across forks" -- click on that link
+
+Now you will see two forks - find the "head" fork dropdown (3rd from the left), find and select your repo
+
+Give your pull request a title and any notes, then click "Create"
