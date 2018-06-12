@@ -6,5 +6,3 @@ Answer this one question, then follow the instructions to submit your first asse
 
 #### 1. What is one thing we did in class this week that helped you learn the most?  
 Looking the order the computer looks at JavaScript code.
-Small lecture and long hands on coding, then going trough the ways to code the challenges.
-// Two things! :-)

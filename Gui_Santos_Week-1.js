@@ -2,12 +2,6 @@
 // Change it so that the messages make sense.
 
 if(true) {
-  console.log("You'll never see this message!");
-} else {
-  console.log("This message is visible");
-}
-
-if(true) {
   console.log("This message is visible");
 } else {
   console.log("You'll never see this message!");
@@ -31,7 +25,7 @@ console.log(result);
 
 var newArr = ["one", "two", "three", "four"]; {
   console.log(newArr[1]);
-  console.log(newArr[3]="duck");
+  newArr[3]="duck";
 }
 
 
@@ -54,7 +48,7 @@ function didNotGoToTheBeach() {
   return "Not a beach day. Get some coding done!";
 }
 
-if(sunny = true) {
+if(sunny) {
   goToTheBeach()
 } else {
   didNotGoToTheBeach()
@@ -66,7 +60,13 @@ if(sunny = true) {
 // If the two numbers sum to more than 20, console log "can't count that high!"
 
 function practiceFunc(arg1, arg2) {
-	// your code here
+    let addition = arg1 + arg2
+
+     if (addition < 20) {
+       console.log(addition)
+     } if (addition > 20) {
+       console.log("can't count that high!")
+     }
 }
 
 
